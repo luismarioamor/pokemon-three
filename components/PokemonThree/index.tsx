@@ -23,6 +23,7 @@ export default function PokemonThree() {
 
   return (
     <CardPokemon
+      dataTestId="pokemon-three"
       src={pokemon.sprites?.other?.["official-artwork"]?.front_default || ""}
       bgColorCard={pokemonSpecies?.color?.name || "all"}
       pokemon={pokemon}
